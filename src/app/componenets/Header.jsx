@@ -52,7 +52,7 @@ export default function Header() {
             <button
               id="menu-btn"
               type="button"
-              className="z-40 block hamburger md:hidden focus:outline-none"
+              className="z-40 block hamburger md:hidden focus:outline-none md:hidden"
             >
               <span className="hamburger-top"></span>
               <span className="hamburger-middle"></span>
@@ -62,7 +62,7 @@ export default function Header() {
         </nav>
         <div
           id="menu"
-          className="absolute top-0 bottom-0 left-0 hidden flex-col self-end w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-black"
+          className="absolute top-0 bottom-0 left-0 hidden flex-col self-end w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-black md:hidden"
         >
           <a href="#" className="hover:text-pink-500">
             About
