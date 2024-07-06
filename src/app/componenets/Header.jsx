@@ -48,11 +48,11 @@ export default function Header() {
               <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
             </div>
           </div>
-          <div class="md:hidden">
+          <div className="md:hidden">
             <button
               id="menu-btn"
               type="button"
-              className="z-40 block hamburger md:hidden focus:outline-none md:hidden"
+              className="z-40 block hamburger md:hidden focus:outline-none"
             >
               <span className="hamburger-top"></span>
               <span className="hamburger-middle"></span>
