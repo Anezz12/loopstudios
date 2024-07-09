@@ -12,6 +12,9 @@ export default function Creations() {
         </div>
 
         {/* item container */}
+        <div className="item-container">
+          <div></div>
+        </div>
       </div>
     </section>
   );
